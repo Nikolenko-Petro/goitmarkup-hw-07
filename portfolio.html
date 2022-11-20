@@ -15,8 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
@@ -61,25 +60,31 @@
     <main class="main">
       <section class="section">
         <div class="conteiner">
-          <ul class="filtres-list">
-            <li><button type="button" class="filtres">Усі</button></li>
-            <li><button type="button" class="filtres">Веб-сайти</button></li>
-            <li><button type="button" class="filtres">Додатки</button></li>
-            <li><button type="button" class="filtres">Дизайн</button></li>
-            <li><button type="button" class="filtres">Маркетинг</button></li>
+          <ul class="filtres__list">
+            <li><button type="button" class="filtres__item">Усі</button></li>
+            <li>
+              <button type="button" class="filtres__item">Веб-сайти</button>
+            </li>
+            <li>
+              <button type="button" class="filtres__item">Додатки</button>
+            </li>
+            <li><button type="button" class="filtres__item">Дизайн</button></li>
+            <li>
+              <button type="button" class="filtres__item">Маркетинг</button>
+            </li>
           </ul>
-          <ul class="project">
-            <li class="portfolio-project">
-              <a href="" class="portfolio">
-                <div class="wrapper">
+          <ul class="project__list">
+            <li class="project__item">
+              <a href="" class="project__link">
+                <div class="project__wrapper">
                   <img
-                    class="project-img"
+                    class="project__img"
                     src="./images/project1.jpg"
                     alt="Проєкт1"
                     width="370"
                   />
-                  <div class="project-owerlay">
-                    <p class="owerlay-text">
+                  <div class="project__owerlay">
+                    <p class="owerlay__text">
                       Ресурс пропонує комплексні пропозиції з різним рівнем
                       функціоналу та сервісів. Все це дозволить відвідувачу
                       отримати вичерпні відомості про компанію чи приватну
@@ -88,122 +93,122 @@
                   </div>
                 </div>
                 <div class="project__content">
-                  <h2 class="project-title">Технокряк</h2>
-                  <p class="project-text">Веб-сайт</p>
+                  <h2 class="project__title">Технокряк</h2>
+                  <p class="project__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-project">
-              <a href="" class="portfolio">
+            <li class="project__item">
+              <a href="" class="project__link">
                 <img
-                  class="project-img"
+                  class="project__img"
                   src="./images/project2.jpg"
                   alt="Проєкт2"
                   width="370"
                 />
                 <div class="project__content">
-                  <h2 class="project-title">
+                  <h2 class="project__title">
                     Постер New Orlean vs Golden Star
                   </h2>
-                  <p class="project-text">Дизайн</p>
+                  <p class="project__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-project">
-              <a href="" class="portfolio">
+            <li class="project__item">
+              <a href="" class="project__link">
                 <img
-                  class="project-img"
+                  class="project__img"
                   src="./images/project3.jpg"
                   alt="Проєкт3"
                   width="370"
                 />
                 <div class="project__content">
-                  <h2 class="project-title">Ресторан Seafood</h2>
-                  <p class="project-text">Додаток</p>
+                  <h2 class="project__title">Ресторан Seafood</h2>
+                  <p class="project__text">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-project">
-              <a href="" class="portfolio">
+            <li class="project__item">
+              <a href="" class="project__link">
                 <img
-                  class="project-img"
+                  class="project__img"
                   src="./images/projeсt4.jpg"
                   alt="Проєкт4"
                   width="370"
                 />
                 <div class="project__content">
-                  <h2 class="project-title">Проєкт Prime</h2>
-                  <p class="project-text">Маркетинг</p>
+                  <h2 class="project__title">Проєкт Prime</h2>
+                  <p class="project__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-project">
-              <a href="" class="portfolio">
+            <li class="project__item">
+              <a href="" class="project__link">
                 <img
-                  class="project-img"
+                  class="project__img"
                   src="./images/project5.jpg"
                   alt="Проєкт5"
                   width="370"
                 />
                 <div class="project__content">
-                  <h2 class="project-title">Проєкт Boxes</h2>
-                  <p class="project-text">Додаток</p>
+                  <h2 class="project__title">Проєкт Boxes</h2>
+                  <p class="project__text">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-project">
-              <a href="" class="portfolio">
+            <li class="project__item">
+              <a href="" class="project__link">
                 <img
-                  class="project-img"
+                  class="project__img"
                   src="./images/project6.jpg"
                   alt="Проєкт6"
                   width="370"
                 />
                 <div class="project__content">
-                  <h2 class="project-title">Inspiration has no Borders</h2>
-                  <p class="project-text">Веб-сайт</p>
+                  <h2 class="project__title">Inspiration has no Borders</h2>
+                  <p class="project__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-project">
-              <a href="" class="portfolio">
+            <li class="project__item">
+              <a href="" class="project__link">
                 <img
-                  class="project-img"
+                  class="project__img"
                   src="./images/project7.jpg"
                   alt="Проєкт7"
                   width="370"
                 />
                 <div class="project__content">
-                  <h2 class="project-title">Видання Limited Edition</h2>
-                  <p class="project-text">Дизайн</p>
+                  <h2 class="project__title">Видання Limited Edition</h2>
+                  <p class="project__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-project">
-              <a href="" class="portfolio">
+            <li class="project__item">
+              <a href="" class="project__link">
                 <img
-                  class="project-img"
+                  class="project__img"
                   src="./images/project8.jpg"
                   alt="Проєкт8"
                   width="370"
                 />
                 <div class="project__content">
-                  <h2 class="project-title">Проєкт LAB</h2>
-                  <p class="project-text">Маркетинг</p>
+                  <h2 class="project__title">Проєкт LAB</h2>
+                  <p class="project__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-project">
-              <a href="" class="portfolio">
+            <li class="project__item">
+              <a href="" class="project__link">
                 <img
-                  class="project-img"
+                  class="project__img"
                   src="./images/project9.jpg"
                   alt="Проєкт9"
                   width="370"
                 />
                 <div class="project__content">
-                  <h2 class="project-title">Growing Business</h2>
-                  <p class="project-text">Додаток</p>
+                  <h2 class="project__title">Growing Business</h2>
+                  <p class="project__text">Додаток</p>
                 </div>
               </a>
             </li>
@@ -213,54 +218,78 @@
     </main>
     <footer class="footer">
       <div class="conteiner footer-conteiner">
-        <div class="main-footer-infirmation">
+        <div class="footer-infirmation">
           <a class="footer-logo" href="/">
             <span class="colorlogo">Web</span>Studio
           </a>
-          <address class="footer-text">
+          <address class="infirmation-text">
             м. Київ, пр-т Лесі Українки, 26
             <ul class="footer-connection">
-              <li class="connection-link">
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <li class="infirmation-item">
+                <a class="infirmation-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
               </li>
-              <li class="connection-link">
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+              <li class="infirmation-item">
+                <a class="infirmation-link" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
               </li>
             </ul>
           </address>
         </div>
         <div class="join">
-          <h2 class="join-title">приєднуйтесь</h2>
-          <ul class="join-list">
-            <li class="join-item">
-              <a class="network-link" href="" class="join-link">
-                <svg class="join-icon">
+          <h2 class="join__title">приєднуйтесь</h2>
+          <ul class="network-list join-list">
+            <li class="join__item">
+              <a class="join__link" href="">
+                <svg class="join__icon">
                   <use href="./symbol-defs.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-item">
-              <a class="network-link" href="" class="join-link">
-                <svg class="join-icon">
+            <li class="join__item">
+              <a class="join__link" href="">
+                <svg class="join__icon">
                   <use href="./symbol-defs.svg#twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-item">
-              <a class="network-link" href="" class="join-link">
-                <svg class="join-icon">
+            <li class="join__item">
+              <a class="join__link" href="">
+                <svg class="join__icon">
                   <use href="./symbol-defs.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-item">
-              <a class="network-link" href="" class="join-link">
-                <svg class="join-icon">
+            <li class="join__item">
+              <a class="join__link" href="">
+                <svg class="join__icon">
                   <use href="./symbol-defs.svg#linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
+        </div>
+
+        <div class="connect">
+          <p class="connect__title">Підпишіться на розсилку</p>
+          <form class="connect__form">
+            <label class="footer-label">
+              <input
+                class="connect__input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit" class="connect__btn button">
+              Підписатися
+              <svg class="connect-form__icon" width="24" height="24">
+                <use href="./symbol-defs.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>

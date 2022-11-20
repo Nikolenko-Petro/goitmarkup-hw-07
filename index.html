@@ -16,8 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <!-- <link rel="stylesheet" href="./css/main.min.css" /> -->
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- HEADER -->
@@ -70,6 +69,7 @@
           </button>
         </div>
       </section>
+      <!-- Feature -->
       <section class="feature section">
         <div class="conteiner">
           <ul class="feature__list">
@@ -393,49 +393,53 @@
     <!-- FOOTER -->
     <footer class="footer">
       <div class="conteiner footer-conteiner">
-        <div class="main-footer-infirmation">
+        <div class="footer-infirmation">
           <a class="footer-logo" href="/">
             <span class="colorlogo">Web</span>Studio
           </a>
-          <address class="footer-text">
+          <address class="infirmation-text">
             м. Київ, пр-т Лесі Українки, 26
             <ul class="footer-connection">
-              <li class="connection-link">
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <li class="infirmation-item">
+                <a class="infirmation-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
               </li>
-              <li class="connection-link">
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+              <li class="infirmation-item">
+                <a class="infirmation-link" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
               </li>
             </ul>
           </address>
         </div>
         <div class="join">
-          <h2 class="join-title">приєднуйтесь</h2>
-          <ul class="join-list">
-            <li class="join-item">
-              <a class="network-link" href="" class="join-link">
-                <svg class="join-icon">
+          <h2 class="join__title">приєднуйтесь</h2>
+          <ul class="network-list join-list">
+            <li class="join__item">
+              <a class="join__link" href="">
+                <svg class="join__icon">
                   <use href="./symbol-defs.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-item">
-              <a class="network-link" href="" class="join-link">
-                <svg class="join-icon">
+            <li class="join__item">
+              <a class="join__link" href="">
+                <svg class="join__icon">
                   <use href="./symbol-defs.svg#twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-item">
-              <a class="network-link" href="" class="join-link">
-                <svg class="join-icon">
+            <li class="join__item">
+              <a class="join__link" href="">
+                <svg class="join__icon">
                   <use href="./symbol-defs.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-item">
-              <a class="network-link" href="" class="join-link">
-                <svg class="join-icon">
+            <li class="join__item">
+              <a class="join__link" href="">
+                <svg class="join__icon">
                   <use href="./symbol-defs.svg#linkedin"></use>
                 </svg>
               </a>
@@ -444,19 +448,19 @@
         </div>
 
         <div class="connect">
-          <p class="connect-title">Підпишіться на розсилку</p>
-          <form class="footer-form">
+          <p class="connect__title">Підпишіться на розсилку</p>
+          <form class="connect__form">
             <label class="footer-label">
               <input
-                class="footer-input"
+                class="connect__input"
                 type="email"
                 name="email"
                 placeholder="E-mail"
               />
             </label>
-            <button type="submit" class="footer-form__btn">
+            <button type="submit" class="connect__btn button">
               Підписатися
-              <svg class="footer-form__icon" width="24" height="24">
+              <svg class="connect-form__icon" width="24" height="24">
                 <use href="./symbol-defs.svg#icon-send"></use>
               </svg>
             </button>
@@ -470,7 +474,7 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-btn" type="button" data-modal-close>
-          <svg class="btn-logo">
+          <svg class="modal-btn-logo">
             <use href="./symbol-defs.svg#Vector"></use>
           </svg>
         </button>
@@ -478,28 +482,28 @@
         <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
         <form class="form">
           <label class="form__label">
-            <span class="label-name">Ім'я</span>
+            <span class="label__name">Ім'я</span>
             <input class="form__input" type="name" />
-            <svg class="form-icon" width="12" height="12">
+            <svg class="form__icon" width="12" height="12">
               <use href="./symbol-defs.svg#vector"></use>
             </svg>
           </label>
           <label class="form__label">
-            <span class="label-name">Телефон</span>
+            <span class="label__name">Телефон</span>
             <input class="form__input" type="tel" />
-            <svg class="form-icon" width="13" height="13">
+            <svg class="form__icon" width="13" height="13">
               <use href="./symbol-defs.svg#vector1"></use>
             </svg>
           </label>
           <label class="form__label">
-            <span class="label-name">Пошта</span>
+            <span class="label__name">Пошта</span>
             <input class="form__input" type="mail" />
-            <svg class="form-icon" width="15" height="12">
+            <svg class="form__icon" width="15" height="12">
               <use href="./symbol-defs.svg#vector2"></use>
             </svg>
           </label>
           <label class="form__label">
-            <span class="label-name">Коментар</span>
+            <span class="label__name">Коментар</span>
             <textarea
               class="form__input form-textarea"
               placeholder="Введіть текст"
@@ -518,7 +522,9 @@
             >
             <a class="contract" href="#"> Умови договору</a>
           </label>
-          <button class="form-send__btn" type="submit">Відправити</button>
+          <button class="form-send__btn button" type="submit">
+            Відправити
+          </button>
         </form>
       </div>
     </div>
